@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0347C72CB2B8380047E8F5 /* MICollectionViewBubbleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0347C62CB2B8370047E8F5 /* MICollectionViewBubbleLayout.swift */; };
+		0F0612222CA74FBC00913B2E /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0612212CA74FB600913B2E /* LocalDatabase.swift */; };
+		0F0612242CA7588E00913B2E /* RealmDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0612232CA7588600913B2E /* RealmDatabase.swift */; };
 		0F1E3B2B2CA2F644001F4A44 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E3B2A2CA2F63C001F4A44 /* .gitignore */; };
 		0F1E3B2E2CA2F9C4001F4A44 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E3B2D2CA2F9BB001F4A44 /* README.md */; };
 		0F5C55482C8E1B400038881C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C55472C8E1B400038881C /* BaseView.swift */; };
@@ -21,22 +24,52 @@
 		0F5E12122C879E9C005AF438 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5E12112C879E9C005AF438 /* Alamofire */; };
 		0F5E12152C87A1E4005AF438 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5E12142C87A1E4005AF438 /* Swinject */; };
 		0F5E12182C87A231005AF438 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5E12172C87A231005AF438 /* Kingfisher */; };
-		0F5E12222C87AB6F005AF438 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5E12212C87AB6F005AF438 /* Realm */; };
 		0F6027042C87C2A6009488FE /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 0F6027032C87C2A6009488FE /* BottomSheet */; };
-		0FA305F72C93AF1C00D5FCA2 /* ShoppingListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA305F22C93AF1C00D5FCA2 /* ShoppingListContract.swift */; };
-		0FA305F82C93AF1C00D5FCA2 /* ShoppingListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA305F32C93AF1C00D5FCA2 /* ShoppingListPresenter.swift */; };
-		0FA305F92C93AF1C00D5FCA2 /* ShoppingListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA305F42C93AF1C00D5FCA2 /* ShoppingListRouter.swift */; };
-		0FA305FA2C93AF1C00D5FCA2 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA305F52C93AF1C00D5FCA2 /* ShoppingListViewController.swift */; };
-		0FA305FB2C93AF1C00D5FCA2 /* ShoppingListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA305F62C93AF1C00D5FCA2 /* ShoppingListInteractor.swift */; };
-		0FA305FD2C93AF5A00D5FCA2 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA305FC2C93AF5A00D5FCA2 /* ShoppingListView.swift */; };
+		0F9AE4F02CADD7F400E4194E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F9AE4EF2CADD7F400E4194E /* RealmSwift */; };
+		0F9AE4F12CADD7F400E4194E /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 0F9AE4EF2CADD7F400E4194E /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0FAE6B622CA72E320022D709 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0FAE6B612CA72E320022D709 /* RealmSwift */; };
 		0FBCDE022C865F1500B29D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCDE012C865F1500B29D22 /* AppDelegate.swift */; };
 		0FBCDE042C865F1500B29D22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCDE032C865F1500B29D22 /* SceneDelegate.swift */; };
 		0FBCDE0B2C865F1600B29D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCDE0A2C865F1600B29D22 /* Assets.xcassets */; };
 		0FBCDE0E2C865F1600B29D22 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCDE0D2C865F1600B29D22 /* Base */; };
-		0FC783BD2C9E2B4D00800DCF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC783BC2C9E2B4D00800DCF /* NetworkManager.swift */; };
+		0FD9F4792CA87C7100AE6AB1 /* ShoppingListAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4772CA87C7100AE6AB1 /* ShoppingListAddView.swift */; };
+		0FD9F47A2CA87C7100AE6AB1 /* ShoppingListAddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4752CA87C7100AE6AB1 /* ShoppingListAddPresenter.swift */; };
+		0FD9F47B2CA87C7100AE6AB1 /* ShoppingListAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4782CA87C7100AE6AB1 /* ShoppingListAddViewController.swift */; };
+		0FD9F47C2CA87C7100AE6AB1 /* ShoppingListAddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4762CA87C7100AE6AB1 /* ShoppingListAddRouter.swift */; };
+		0FD9F47D2CA87C7100AE6AB1 /* ShoppingListAddContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4732CA87C7100AE6AB1 /* ShoppingListAddContract.swift */; };
+		0FD9F47E2CA87C7100AE6AB1 /* ShoppingListAddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4742CA87C7100AE6AB1 /* ShoppingListAddInteractor.swift */; };
+		0FEDCE832CA605DD0062C58C /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDCE822CA605AF0062C58C /* ItemsList.swift */; };
+		0FEDCE872CA60A320062C58C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDCE862CA60A2E0062C58C /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0F9AE4E22CADA8D800E4194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBCDDF62C865F1500B29D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBCDDFD2C865F1500B29D22;
+			remoteInfo = ShoppingSaverApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F9AE4F22CADD7F400E4194E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F9AE4F12CADD7F400E4194E /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F0347C62CB2B8370047E8F5 /* MICollectionViewBubbleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICollectionViewBubbleLayout.swift; sourceTree = "<group>"; };
+		0F0612212CA74FB600913B2E /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		0F0612232CA7588600913B2E /* RealmDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDatabase.swift; sourceTree = "<group>"; };
 		0F1E3B2A2CA2F63C001F4A44 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0F1E3B2D2CA2F9BB001F4A44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F5C55472C8E1B400038881C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
@@ -47,26 +80,41 @@
 		0F5C554D2C8E1B960038881C /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		0F5C554E2C8E1B960038881C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0F5C55552C8E1C460038881C /* NavigationViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewProtocol.swift; sourceTree = "<group>"; };
-		0FA305F22C93AF1C00D5FCA2 /* ShoppingListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListContract.swift; sourceTree = "<group>"; };
-		0FA305F32C93AF1C00D5FCA2 /* ShoppingListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListPresenter.swift; sourceTree = "<group>"; };
-		0FA305F42C93AF1C00D5FCA2 /* ShoppingListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListRouter.swift; sourceTree = "<group>"; };
-		0FA305F52C93AF1C00D5FCA2 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
-		0FA305F62C93AF1C00D5FCA2 /* ShoppingListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListInteractor.swift; sourceTree = "<group>"; };
-		0FA305FC2C93AF5A00D5FCA2 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		0F9AE4DE2CADA8D800E4194E /* ShoppingSaverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingSaverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBCDDFE2C865F1500B29D22 /* ShoppingSaverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingSaverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBCDE012C865F1500B29D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FBCDE032C865F1500B29D22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0FBCDE0A2C865F1600B29D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FBCDE0D2C865F1600B29D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FBCDE0F2C865F1600B29D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FC783BC2C9E2B4D00800DCF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0FD9F4732CA87C7100AE6AB1 /* ShoppingListAddContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddContract.swift; sourceTree = "<group>"; };
+		0FD9F4742CA87C7100AE6AB1 /* ShoppingListAddInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddInteractor.swift; sourceTree = "<group>"; };
+		0FD9F4752CA87C7100AE6AB1 /* ShoppingListAddPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddPresenter.swift; sourceTree = "<group>"; };
+		0FD9F4762CA87C7100AE6AB1 /* ShoppingListAddRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddRouter.swift; sourceTree = "<group>"; };
+		0FD9F4772CA87C7100AE6AB1 /* ShoppingListAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddView.swift; sourceTree = "<group>"; };
+		0FD9F4782CA87C7100AE6AB1 /* ShoppingListAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddViewController.swift; sourceTree = "<group>"; };
+		0FEDCE822CA605AF0062C58C /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
+		0FEDCE862CA60A2E0062C58C /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0F9AE4DF2CADA8D800E4194E /* ShoppingSaverAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ShoppingSaverAppTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		0F9AE4DB2CADA8D800E4194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9AE4F02CADD7F400E4194E /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBCDDFB2C865F1500B29D22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FAE6B622CA72E320022D709 /* RealmSwift in Frameworks */,
 				0F6027042C87C2A6009488FE /* BottomSheet in Frameworks */,
 				0F5E12182C87A231005AF438 /* Kingfisher in Frameworks */,
 				0F5E12122C879E9C005AF438 /* Alamofire in Frameworks */,
@@ -79,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3983F32CAACAA4007B277D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDCE862CA60A2E0062C58C /* ListItem.swift */,
+				0FEDCE822CA605AF0062C58C /* ItemsList.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		0F5C55462C8E1B2F0038881C /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +328,8 @@
 		0FA89BD62C8CFACE00115219 /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				0F0612232CA7588600913B2E /* RealmDatabase.swift */,
+				0F3983F32CAACAA4007B277D /* Entity */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -285,6 +344,7 @@
 		0FA89BD82C8CFADF00115219 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				0F0612212CA74FB600913B2E /* LocalDatabase.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -306,6 +366,8 @@
 				0F1E3B2D2CA2F9BB001F4A44 /* README.md */,
 				0F1E3B2A2CA2F63C001F4A44 /* .gitignore */,
 				0FBCDE002C865F1500B29D22 /* ShoppingSaverApp */,
+				0F9AE4DF2CADA8D800E4194E /* ShoppingSaverAppTests */,
+				0F9AE4EE2CADD7F400E4194E /* Frameworks */,
 				0FBCDDFF2C865F1500B29D22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -314,6 +376,7 @@
 			isa = PBXGroup;
 			children = (
 				0FBCDDFE2C865F1500B29D22 /* ShoppingSaverApp.app */,
+				0F9AE4DE2CADA8D800E4194E /* ShoppingSaverAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -335,6 +398,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0F9AE4DD2CADA8D800E4194E /* ShoppingSaverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F9AE4E62CADA8D800E4194E /* Build configuration list for PBXNativeTarget "ShoppingSaverAppTests" */;
+			buildPhases = (
+				0F9AE4DA2CADA8D800E4194E /* Sources */,
+				0F9AE4DB2CADA8D800E4194E /* Frameworks */,
+				0F9AE4DC2CADA8D800E4194E /* Resources */,
+				0F9AE4F22CADD7F400E4194E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F9AE4E32CADA8D800E4194E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0F9AE4DF2CADA8D800E4194E /* ShoppingSaverAppTests */,
+			);
+			name = ShoppingSaverAppTests;
+			packageProductDependencies = (
+				0F9AE4EF2CADD7F400E4194E /* RealmSwift */,
+			);
+			productName = ShoppingSaverAppTests;
+			productReference = 0F9AE4DE2CADA8D800E4194E /* ShoppingSaverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0FBCDDFD2C865F1500B29D22 /* ShoppingSaverApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FBCDE122C865F1600B29D22 /* Build configuration list for PBXNativeTarget "ShoppingSaverApp" */;
@@ -353,9 +441,9 @@
 				0F5E12112C879E9C005AF438 /* Alamofire */,
 				0F5E12142C87A1E4005AF438 /* Swinject */,
 				0F5E12172C87A231005AF438 /* Kingfisher */,
-				0F5E12212C87AB6F005AF438 /* Realm */,
 				0F6027032C87C2A6009488FE /* BottomSheet */,
 				0F5E048B2C890FAC00331081 /* SnapKit */,
+				0FAE6B612CA72E320022D709 /* RealmSwift */,
 			);
 			productName = ShoppingSaverApp;
 			productReference = 0FBCDDFE2C865F1500B29D22 /* ShoppingSaverApp.app */;
@@ -368,9 +456,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					0F9AE4DD2CADA8D800E4194E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0FBCDDFD2C865F1500B29D22;
+					};
 					0FBCDDFD2C865F1500B29D22 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -390,20 +482,28 @@
 				0F5E12132C87A1E4005AF438 /* XCRemoteSwiftPackageReference "Swinject" */,
 				0F5E12162C87A231005AF438 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				0F5E12192C87A904005AF438 /* XCRemoteSwiftPackageReference "SwiftLint" */,
-				0F5E12202C87AB6F005AF438 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				0F6027022C87C2A5009488FE /* XCRemoteSwiftPackageReference "BottomSheet" */,
 				0F5E048A2C890FAC00331081 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0FAE6B602CA72E320022D709 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 0FBCDDFF2C865F1500B29D22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0FBCDDFD2C865F1500B29D22 /* ShoppingSaverApp */,
+				0F9AE4DD2CADA8D800E4194E /* ShoppingSaverAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0F9AE4DC2CADA8D800E4194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBCDDFC2C865F1500B29D22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +539,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F9AE4DA2CADA8D800E4194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBCDDFA2C865F1500B29D22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,8 +553,11 @@
 				0FA305FD2C93AF5A00D5FCA2 /* ShoppingListView.swift in Sources */,
 				0F5C55482C8E1B400038881C /* BaseView.swift in Sources */,
 				0FBCDE022C865F1500B29D22 /* AppDelegate.swift in Sources */,
+				0F0612222CA74FBC00913B2E /* LocalDatabase.swift in Sources */,
 				0F5C55562C8E1C460038881C /* NavigationViewProtocol.swift in Sources */,
 				0FBCDE042C865F1500B29D22 /* SceneDelegate.swift in Sources */,
+				0F0612242CA7588E00913B2E /* RealmDatabase.swift in Sources */,
+				0F0347C72CB2B8380047E8F5 /* MICollectionViewBubbleLayout.swift in Sources */,
 				0F5C554F2C8E1B960038881C /* HomeContract.swift in Sources */,
 				0F5C55502C8E1B960038881C /* HomePresenter.swift in Sources */,
 				0F5C55512C8E1B960038881C /* HomeRouter.swift in Sources */,
@@ -465,6 +575,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0F9AE4E32CADA8D800E4194E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBCDDFD2C865F1500B29D22 /* ShoppingSaverApp */;
+			targetProxy = 0F9AE4E22CADA8D800E4194E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		0FBCDE0C2C865F1600B29D22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -477,6 +595,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0F9AE4E42CADA8D800E4194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T56JGFA2A3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfurkansakiz.ShoppingSaverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingSaverApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingSaverApp";
+			};
+			name = Debug;
+		};
+		0F9AE4E52CADA8D800E4194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T56JGFA2A3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfurkansakiz.ShoppingSaverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingSaverApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingSaverApp";
+			};
+			name = Release;
+		};
 		0FBCDE102C865F1600B29D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -608,9 +766,9 @@
 				INFOPLIST_FILE = ShoppingSaverApp/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -640,9 +798,9 @@
 				INFOPLIST_FILE = ShoppingSaverApp/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -663,6 +821,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F9AE4E62CADA8D800E4194E /* Build configuration list for PBXNativeTarget "ShoppingSaverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9AE4E42CADA8D800E4194E /* Debug */,
+				0F9AE4E52CADA8D800E4194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0FBCDDF92C865F1500B29D22 /* Build configuration list for PBXProject "ShoppingSaverApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -740,6 +907,14 @@
 				minimumVersion = 2.0.5;
 			};
 		};
+		0FAE6B602CA72E320022D709 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.54.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -763,15 +938,20 @@
 			package = 0F5E12162C87A231005AF438 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		0F5E12212C87AB6F005AF438 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0F5E12202C87AB6F005AF438 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
 		0F6027032C87C2A6009488FE /* BottomSheet */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0F6027022C87C2A5009488FE /* XCRemoteSwiftPackageReference "BottomSheet" */;
 			productName = BottomSheet;
+		};
+		0F9AE4EF2CADD7F400E4194E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FAE6B602CA72E320022D709 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		0FAE6B612CA72E320022D709 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FAE6B602CA72E320022D709 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
