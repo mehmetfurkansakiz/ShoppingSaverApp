@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F0347C72CB2B8380047E8F5 /* MICollectionViewBubbleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0347C62CB2B8370047E8F5 /* MICollectionViewBubbleLayout.swift */; };
 		0F0612222CA74FBC00913B2E /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0612212CA74FB600913B2E /* LocalDatabase.swift */; };
 		0F0612242CA7588E00913B2E /* RealmDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0612232CA7588600913B2E /* RealmDatabase.swift */; };
 		0F1E3B2B2CA2F644001F4A44 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E3B2A2CA2F63C001F4A44 /* .gitignore */; };
@@ -25,21 +24,15 @@
 		0F5E12152C87A1E4005AF438 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5E12142C87A1E4005AF438 /* Swinject */; };
 		0F5E12182C87A231005AF438 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5E12172C87A231005AF438 /* Kingfisher */; };
 		0F6027042C87C2A6009488FE /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 0F6027032C87C2A6009488FE /* BottomSheet */; };
+		0F8B3B2D2CB8546700355B84 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B3B2C2CB8546700355B84 /* HomeTableViewCell.swift */; };
 		0F9AE4F02CADD7F400E4194E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F9AE4EF2CADD7F400E4194E /* RealmSwift */; };
 		0F9AE4F12CADD7F400E4194E /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 0F9AE4EF2CADD7F400E4194E /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0FA5C6A62CBD4D2C00CEF1EB /* RecommendationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA5C6A52CBD4D2C00CEF1EB /* RecommendationsCollectionViewCell.swift */; };
 		0FAE6B622CA72E320022D709 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0FAE6B612CA72E320022D709 /* RealmSwift */; };
 		0FBCDE022C865F1500B29D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCDE012C865F1500B29D22 /* AppDelegate.swift */; };
 		0FBCDE042C865F1500B29D22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCDE032C865F1500B29D22 /* SceneDelegate.swift */; };
 		0FBCDE0B2C865F1600B29D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCDE0A2C865F1600B29D22 /* Assets.xcassets */; };
 		0FBCDE0E2C865F1600B29D22 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCDE0D2C865F1600B29D22 /* Base */; };
-		0FD9F4792CA87C7100AE6AB1 /* ShoppingListAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4772CA87C7100AE6AB1 /* ShoppingListAddView.swift */; };
-		0FD9F47A2CA87C7100AE6AB1 /* ShoppingListAddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4752CA87C7100AE6AB1 /* ShoppingListAddPresenter.swift */; };
-		0FD9F47B2CA87C7100AE6AB1 /* ShoppingListAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4782CA87C7100AE6AB1 /* ShoppingListAddViewController.swift */; };
-		0FD9F47C2CA87C7100AE6AB1 /* ShoppingListAddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4762CA87C7100AE6AB1 /* ShoppingListAddRouter.swift */; };
-		0FD9F47D2CA87C7100AE6AB1 /* ShoppingListAddContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4732CA87C7100AE6AB1 /* ShoppingListAddContract.swift */; };
-		0FD9F47E2CA87C7100AE6AB1 /* ShoppingListAddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9F4742CA87C7100AE6AB1 /* ShoppingListAddInteractor.swift */; };
-		0FEDCE832CA605DD0062C58C /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDCE822CA605AF0062C58C /* ItemsList.swift */; };
-		0FEDCE872CA60A320062C58C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDCE862CA60A2E0062C58C /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +60,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F0347C62CB2B8370047E8F5 /* MICollectionViewBubbleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICollectionViewBubbleLayout.swift; sourceTree = "<group>"; };
 		0F0612212CA74FB600913B2E /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
 		0F0612232CA7588600913B2E /* RealmDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDatabase.swift; sourceTree = "<group>"; };
 		0F1E3B2A2CA2F63C001F4A44 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -80,19 +72,15 @@
 		0F5C554D2C8E1B960038881C /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		0F5C554E2C8E1B960038881C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0F5C55552C8E1C460038881C /* NavigationViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewProtocol.swift; sourceTree = "<group>"; };
+		0F8B3B2C2CB8546700355B84 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		0F9AE4DE2CADA8D800E4194E /* ShoppingSaverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingSaverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA5C6A52CBD4D2C00CEF1EB /* RecommendationsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsCollectionViewCell.swift; sourceTree = "<group>"; };
 		0FBCDDFE2C865F1500B29D22 /* ShoppingSaverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingSaverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBCDE012C865F1500B29D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FBCDE032C865F1500B29D22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0FBCDE0A2C865F1600B29D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FBCDE0D2C865F1600B29D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FBCDE0F2C865F1600B29D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FD9F4732CA87C7100AE6AB1 /* ShoppingListAddContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddContract.swift; sourceTree = "<group>"; };
-		0FD9F4742CA87C7100AE6AB1 /* ShoppingListAddInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddInteractor.swift; sourceTree = "<group>"; };
-		0FD9F4752CA87C7100AE6AB1 /* ShoppingListAddPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddPresenter.swift; sourceTree = "<group>"; };
-		0FD9F4762CA87C7100AE6AB1 /* ShoppingListAddRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddRouter.swift; sourceTree = "<group>"; };
-		0FD9F4772CA87C7100AE6AB1 /* ShoppingListAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddView.swift; sourceTree = "<group>"; };
-		0FD9F4782CA87C7100AE6AB1 /* ShoppingListAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAddViewController.swift; sourceTree = "<group>"; };
 		0FEDCE822CA605AF0062C58C /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
 		0FEDCE862CA60A2E0062C58C /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +107,6 @@
 				0F5E12182C87A231005AF438 /* Kingfisher in Frameworks */,
 				0F5E12122C879E9C005AF438 /* Alamofire in Frameworks */,
 				0F5E048C2C890FAC00331081 /* SnapKit in Frameworks */,
-				0F5E12222C87AB6F005AF438 /* Realm in Frameworks */,
 				0F5E12152C87A1E4005AF438 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +134,7 @@
 		0F5C55572C8E28420038881C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0F8B3B292CB853ED00355B84 /* Cell */,
 				0F5C55492C8E1B960038881C /* HomeContract.swift */,
 				0F5C554A2C8E1B960038881C /* HomePresenter.swift */,
 				0F5C554B2C8E1B960038881C /* HomeRouter.swift */,
@@ -157,17 +145,13 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		0FA305F12C93AE5100D5FCA2 /* ShoppingList */ = {
+		0F8B3B292CB853ED00355B84 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				0FA305F22C93AF1C00D5FCA2 /* ShoppingListContract.swift */,
-				0FA305F32C93AF1C00D5FCA2 /* ShoppingListPresenter.swift */,
-				0FA305F42C93AF1C00D5FCA2 /* ShoppingListRouter.swift */,
-				0FA305F52C93AF1C00D5FCA2 /* ShoppingListViewController.swift */,
-				0FA305F62C93AF1C00D5FCA2 /* ShoppingListInteractor.swift */,
-				0FA305FC2C93AF5A00D5FCA2 /* ShoppingListView.swift */,
+				0F8B3B2C2CB8546700355B84 /* HomeTableViewCell.swift */,
+				0FA5C6A52CBD4D2C00CEF1EB /* RecommendationsCollectionViewCell.swift */,
 			);
-			path = ShoppingList;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		0FA89BC32C8CEC2200115219 /* Core */ = {
@@ -245,8 +229,8 @@
 		0FA89BCC2C8CF9BC00115219 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				0FA305F12C93AE5100D5FCA2 /* ShoppingList */,
 				0F5C55572C8E28420038881C /* Home */,
+				0FAD88262CB5B7C900FEEC7A /* ShoppingListAdd */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -296,7 +280,6 @@
 		0FA89BD22C8CFA3F00115219 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				0FC783BC2C9E2B4D00800DCF /* NetworkManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -360,6 +343,13 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		0FAD88262CB5B7C900FEEC7A /* ShoppingListAdd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingListAdd;
+			sourceTree = "<group>";
+		};
 		0FBCDDF52C865F1500B29D22 = {
 			isa = PBXGroup;
 			children = (
@@ -367,7 +357,6 @@
 				0F1E3B2A2CA2F63C001F4A44 /* .gitignore */,
 				0FBCDE002C865F1500B29D22 /* ShoppingSaverApp */,
 				0F9AE4DF2CADA8D800E4194E /* ShoppingSaverAppTests */,
-				0F9AE4EE2CADD7F400E4194E /* Frameworks */,
 				0FBCDDFF2C865F1500B29D22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -550,23 +539,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA305FD2C93AF5A00D5FCA2 /* ShoppingListView.swift in Sources */,
 				0F5C55482C8E1B400038881C /* BaseView.swift in Sources */,
 				0FBCDE022C865F1500B29D22 /* AppDelegate.swift in Sources */,
+				0F8B3B2D2CB8546700355B84 /* HomeTableViewCell.swift in Sources */,
 				0F0612222CA74FBC00913B2E /* LocalDatabase.swift in Sources */,
 				0F5C55562C8E1C460038881C /* NavigationViewProtocol.swift in Sources */,
 				0FBCDE042C865F1500B29D22 /* SceneDelegate.swift in Sources */,
 				0F0612242CA7588E00913B2E /* RealmDatabase.swift in Sources */,
-				0F0347C72CB2B8380047E8F5 /* MICollectionViewBubbleLayout.swift in Sources */,
+				0FA5C6A62CBD4D2C00CEF1EB /* RecommendationsCollectionViewCell.swift in Sources */,
 				0F5C554F2C8E1B960038881C /* HomeContract.swift in Sources */,
 				0F5C55502C8E1B960038881C /* HomePresenter.swift in Sources */,
 				0F5C55512C8E1B960038881C /* HomeRouter.swift in Sources */,
-				0FA305F72C93AF1C00D5FCA2 /* ShoppingListContract.swift in Sources */,
-				0FA305F82C93AF1C00D5FCA2 /* ShoppingListPresenter.swift in Sources */,
-				0FC783BD2C9E2B4D00800DCF /* NetworkManager.swift in Sources */,
-				0FA305F92C93AF1C00D5FCA2 /* ShoppingListRouter.swift in Sources */,
-				0FA305FA2C93AF1C00D5FCA2 /* ShoppingListViewController.swift in Sources */,
-				0FA305FB2C93AF1C00D5FCA2 /* ShoppingListInteractor.swift in Sources */,
 				0F5C55522C8E1B960038881C /* HomeViewController.swift in Sources */,
 				0F5C55532C8E1B960038881C /* HomeInteractor.swift in Sources */,
 				0F5C55542C8E1B960038881C /* HomeView.swift in Sources */,
@@ -889,14 +872,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.56.2;
-			};
-		};
-		0F5E12202C87AB6F005AF438 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
 			};
 		};
 		0F6027022C87C2A5009488FE /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
